@@ -1,4 +1,4 @@
-import FileUtil.getInputFile
+import java.io.File
 
 /**
  * Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.
@@ -36,7 +36,7 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 object Day01_SonarSweep_Part2 {
 
     fun solve() {
-        val file = getInputFile(day = 1)
+        val file = FileUtil.getInputFile(day = 1)
         val measurements = file.readLines().map { it.toInt() }
 
         val windowSize = 3
@@ -73,6 +73,19 @@ object Day01_SonarSweep_Part2 {
             Accumulator(
                 lastValue = newValue,
                 increases = increases
+            )
+    }
+
+    /**
+     * Simple utility to handle file input.
+     */
+    object FileUtil {
+
+        fun getInputFile(day: Int) =
+            File(
+                this::class.java
+                    .getResource("day${day.toString().padStart(2, '0')}.in")
+                    .file!!
             )
     }
 }

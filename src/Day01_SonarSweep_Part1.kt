@@ -1,4 +1,4 @@
-import FileUtil.getInputFile
+import java.io.File
 
 /**
  * As the submarine drops below the surface of the ocean, it automatically performs a sonar sweep of the nearby sea floor. On a small screen, the sonar sweep report (your puzzle input) appears: each line is a measurement of the sea floor depth as the sweep looks further and further away from the submarine.
@@ -38,7 +38,7 @@ How many measurements are larger than the previous measurement?
 object Day01_SonarSweep_Part1 {
 
     fun solve() {
-        val file = getInputFile(day = 1)
+        val file = FileUtil.getInputFile(day = 1)
         val increases = file.useLines {
             it.fold(
                 Accumulator()
@@ -70,6 +70,18 @@ object Day01_SonarSweep_Part1 {
             )
     }
 
+    /**
+     * Simple utility to handle file input.
+     */
+    object FileUtil {
+
+        fun getInputFile(day: Int) =
+            File(
+                this::class.java
+                    .getResource("day${day.toString().padStart(2, '0')}.in")
+                    .file!!
+            )
+    }
 }
 
 fun main() {
