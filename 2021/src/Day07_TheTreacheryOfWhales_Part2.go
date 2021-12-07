@@ -24,6 +24,10 @@ Determine the horizontal position that the crabs can align to using the least fu
 // running: go run ./2021/src/Day07_TheTreacheryOfWhales_Part1.go
 package main
 
+// this solution ended up being mostly a brute-force solution. Some things that could be done to have a more performant solution:
+// -> some values repeat, so we could join same values in buckets (or memoize some calculations, since there aren't that many clashes to keep hashmaps) -> this would provide some minor improvement
+// -> find a solution with a binary search instead of linear (since the results converge to a single point of lowest result) -> this would reduce from O(n) to O(log n)
+
 import (
     "strings"
     "bufio"
