@@ -27,3 +27,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 7 ([Go](https://go.dev/))
         * [Part 1](./2021/src/Day07_TheTreacheryOfWhales_Part1.go)
         * [Part 2](./2021/src/Day07_TheTreacheryOfWhales_Part2.go)
+    * Day 8 ([Java](https://www.java.com/))
+        * [Part 1](./2021/src/Day08)
+        * [Part 2](./2021/src/Day08)

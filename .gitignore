@@ -23,3 +23,5 @@
 hs_err_pid*
 
 /out
+# ignore compiled files named 'runner'
+/runner
