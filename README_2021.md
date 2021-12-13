@@ -39,3 +39,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 11 ([Typescript](https://www.typescriptlang.org/))
         * [Part 1](./2021/src/Day11_DumboOctopus_Part1.ts)
         * [Part 2](./2021/src/Day11_DumboOctopus_Part2.ts)
+    * Day 12 ([Swift](https://www.swift.org))
+        * [Part1](./2021/src/Day12_PassagePathing_Part1.swift)
+        * [Part2](./2021/src/Day12_PassagePathing_Part2.swift)
