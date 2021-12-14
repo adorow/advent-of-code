@@ -45,3 +45,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 13 ([Scala](https://www.scala-lang.org/))
         * [Part1](./2021/src/Day13_TransparentOrigami_Part1.scala)
         * [Part2](./2021/src/Day13_TransparentOrigami_Part2.scala)
+    * Day 14 ([Ballerina](https://ballerina.io/))
+        * [Part1](./2021/src/Day14_ExtendedPolymerization_Part1.bal)
+        * [Part2](./2021/src/Day14_ExtendedPolymerization_Part2.bal)
