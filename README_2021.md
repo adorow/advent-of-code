@@ -48,3 +48,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 14 ([Ballerina](https://ballerina.io/))
         * [Part1](./2021/src/Day14_ExtendedPolymerization_Part1.bal)
         * [Part2](./2021/src/Day14_ExtendedPolymerization_Part2.bal)
+    * Day 15 ([Rust](https://www.rust-lang.org/))
+        * [Part1](./2021/src/Day15_Chiton_Part1.rs)
+        * [Part2](./2021/src/Day15_Chiton_Part2.rs)
