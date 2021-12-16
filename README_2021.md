@@ -51,3 +51,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 15 ([Rust](https://www.rust-lang.org/))
         * [Part1](./2021/src/Day15_Chiton_Part1.rs)
         * [Part2](./2021/src/Day15_Chiton_Part2.rs)
+    * Day 16 ([Haskell](https://www.haskell.org/))
+        * [Part1](./2021/src/Day16_PacketDecoder_Part1.hs)
+        * [Part2](./2021/src/Day16_PacketDecoder_Part2.hs)
