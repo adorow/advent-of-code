@@ -54,3 +54,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 16 ([Haskell](https://www.haskell.org/))
         * [Part1](./2021/src/Day16_PacketDecoder_Part1.hs)
         * [Part2](./2021/src/Day16_PacketDecoder_Part2.hs)
+    * Day 17 ([ZShell](https://zsh.sourceforge.io/))
+        * [Part1](./2021/src/Day17_TrickShot_Part1.zsh)
+        * [Part2](./2021/src/Day17_TrickShot_Part2.zsh)
