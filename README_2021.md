@@ -57,3 +57,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 17 ([ZShell](https://zsh.sourceforge.io/))
         * [Part1](./2021/src/Day17_TrickShot_Part1.zsh)
         * [Part2](./2021/src/Day17_TrickShot_Part2.zsh)
+    * Day 18 ([PHP](https://www.php.net/))
+        * [Part1](./2021/src/Day18_Snailfish_Part1.php)
+        * [Part2](./2021/src/Day18_Snailfish_Part2.php)
