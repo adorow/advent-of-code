@@ -64,3 +64,6 @@ Ideally by the end of the year (31.12.2021). If not finished by then I would con
     * Day 20 ([Erlang](https://www.erlang.org/))
         * [Part1](./2021/src/day20_trenchmap_part1.erl)
         * [Part2](./2021/src/day20_trenchmap_part2.erl)
+    * Day 21 ([Julia](https://julialang.org/))
+        * [Part1](./2021/src/Day21_DiracDice_Part1.jl)
+        * [Part2](./2021/src/Day21_DiracDice_Part2.jl)
