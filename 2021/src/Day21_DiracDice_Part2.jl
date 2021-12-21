@@ -16,19 +16,13 @@
 new_position(current_pos::Int64, roll::Int64) = mod(current_pos + roll - 1, 10) + 1 #-1, +1 to account for the positions 1 through 10
 
 input = readlines("./2021/resources/day21.in")
-# indexes start at 1
+
 player1Start = parse(Int64, SubString(input[1], 29)) # skip the "Player n starting position: "
 player2Start = parse(Int64, SubString(input[2], 29))
 
 println("Player 1 starting position: ", player1Start)
 println("Player 2 starting position: ", player2Start)
 
-
-# what I want to compute: -> with a player in (position, score) and another in (position2, score2), each player wins X times
-
-# init win map
-
-# rollPossibilities = {3: 1, 4: 3, 5: 6, 6: 7, 7: 6, 8: 3, 9: 1}
 rollPossibilities = Dict(3 => 1, 4 => 3, 5 => 6, 6 => 7, 7 => 6, 8 => 3, 9 => 1)
 
 wins_1 = 0
